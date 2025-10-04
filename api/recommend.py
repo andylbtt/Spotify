@@ -301,7 +301,7 @@ async def recommend(
     cadena: str = Form("WALMART"),
     estado: str = Form("CIUDAD DE MEXICO"),
     n_tracks: int = Form(60),
-    per_genre_pool: int = Form(300),
+    per_genre_pool: int = Form(100),
     market: str = Form("MX"),
     daypart_override: str = Form(None),
     otros_cap: float = Form(0.08),
